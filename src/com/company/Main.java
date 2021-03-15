@@ -21,10 +21,14 @@ public class Main {
         System.out.println("myFloatValue = " + myFloatValue);
         System.out.println("myDoubleValue = " + myDoubleValue);
 
-
         double numberOfPounds = 200d;
         double convertedKilograms = numberOfPounds * 0.4539237d;
         System.out.println("Converted Kilograms =" + convertedKilograms);
+
+        double pi = 3.1415927d;
+        double anotherNumber = 3_000_000.4_567_890d;
+        System.out.println(pi);
+        System.out.println(anotherNumber);
 	
     }
 }
